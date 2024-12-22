@@ -1,0 +1,78 @@
+ 
+ body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #4500764b;
+ }
+ #body{
+    display:block;
+    
+    align-items: center;
+    height: 600px;
+    width: 300px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background: conic-gradient(from 0deg,#581845,#900c3f,#c70039,#ff5733,#ffc30f,#ff5733,#c70039,#900c3f,#581845);
+     
+    box-shadow:  20px 20px 20px 20px #1f1f1fd3;
+    
+ }
+ h1{
+    text-align: center;
+    color:rgba(0, 255, 255, 0.252);
+     
+    -webkit-text-stroke: 0.4px rgb(255, 255, 255);
+ }
+ #inputBox{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #main_container{
+    margin: 0px 0px 0px 15px;
+    height: 70%;
+    width: 90%;
+    word-break: break-all;
+    white-space: normal;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    scroll-behavior: auto;
+    border: 0px solid rgba(0, 0, 0, 0.251);
+    border-radius: 10px;
+     
+     
+ }
+ .newTasks{
+    -webkit-text-stroke: 0.01px rgb(0, 0, 0);
+    margin: 5px 2px 2px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.145);
+    border-radius: 5px;
+    background-color: rgba(0, 25, 24, 0.553);
+    color: rgb(206, 243, 220);
+    padding: 1px 1px 1px 1px;
+    text-align: start;
+ }
+ #taskName{
+   border: none;
+   border-radius: 5px;
+   height: 40px;
+   margin-right: 5px;
+   background-color: rgba(73, 79, 84, 0.466);
+   color: whitesmoke;
+ }
+ button{
+   border: none;
+   height: 30px;
+   border-radius: 5px;
+   background-color: rgba(255, 255, 255, 0.516);
+   color: #47000097;
+   box-shadow: 0px 0px 20px  rgb(39, 42, 39);
+ }
+ #delBut{
+   width: 30px;
+   position: relative;
+    margin-left: 2px;
+    height: 80%;
+ }
