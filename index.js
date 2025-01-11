@@ -15,7 +15,7 @@ addingOfTask=()=>{
     taskField.value=""
     let isUserScrolling=false
     let delBut=document.createElement("button");
-    delBut.innerText="X"
+    delBut.innerText="\uD83D\uDDD1"
     delBut.id="delBut"
     // delBut.style.width="30px"
     // delBut.style.position="relative"
